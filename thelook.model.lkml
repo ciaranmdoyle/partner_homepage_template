@@ -17,7 +17,7 @@ persist_with: ecommerce_etl
 
 
 explore: order_items {
-  hidden: yes
+
   label: "(1) Orders, Items and Users"
   view_name: order_items
 
