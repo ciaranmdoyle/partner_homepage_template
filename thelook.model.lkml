@@ -17,7 +17,10 @@ persist_with: ecommerce_etl
 
 
 explore: order_items {
-hidden: yes
+  access_filter: {
+    field: products.brand
+    user_attribute: brand
+  }
   label: "(1) Orders, Items and Users"
   view_name: order_items
 
